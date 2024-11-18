@@ -20,7 +20,7 @@ jobs:
         with:
           arguments: test jacocoTestReport
       - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v5
       - name: Upload test report
         uses: actions/upload-artifact@v3
         with:
